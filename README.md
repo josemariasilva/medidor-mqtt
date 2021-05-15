@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # medidor_de_torque-mqtt
 =======
 software_raspberry_mqtt
