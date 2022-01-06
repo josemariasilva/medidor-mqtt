@@ -93,5 +93,5 @@ class My_client_ad(Thread):
         client.loop_forever()
 
 if __name__ == "__main__":
-    my = My_client_ad('mqtt.eclipse.org', 1883, 'ad')
+    my = My_client_ad('broker.emqx.io', 1883, 'ad')
     my.start()
