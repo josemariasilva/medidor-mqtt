@@ -26,7 +26,7 @@ class Widget(QWidget):
         self.backup = None
         self.mark = True
         self.setStyleSheet('background-color:grey')
-        #self.ad = Receive_from_ad('mqtt.eclipse.org', 1883, 'request')
+        #self.ad = Receive_from_ad('broker.emqx.io', 1883, 'request')
         self.channel_1 = Plotting()
         self.channel_2 = Plotting()
  
